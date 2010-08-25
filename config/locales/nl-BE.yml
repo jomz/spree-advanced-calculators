@@ -1,0 +1,44 @@
+--- 
+nl-BE:
+  actions:
+    new: Nieuwe
+    create: Aanmaken
+    create_another: Hierna nog één aanmaken
+    update: Bijwerken
+  activerecord:
+    attributes:
+      bucket_rate:
+        floor: Floor
+        ceiling: Ceiling
+        rate: Rate
+        unit: Unit
+    models:
+      bucket_rate:
+        one: Eén
+        other: Andere
+    errors:
+      messages:
+        higher_or_equal: Hoger of gelijk
+  calculator_names:
+    weight_bucket: Weight Bucket
+    quantity_bucket: Quantity Bucket
+    price_bucket: Price Bucket
+  bucket_rate: Bucket Rate
+  new_bucket_rate: New Bucket Rate
+  edit_bucket_rate: Edit Bucket Rate
+  configure_bucket_rates: Bucket Rates configureren
+  configure_new_bucket_rate: Nieuwe Bucket Rate configureren
+  bucket_rates: Bucket Rates
+  bucket_rates_description: Bucket Rates omschrijving
+  default_amount: Standaard bedrag
+  default_weight: Standaard gewicht
+  bucket_list_information: "
+     In order to use the Bucket Rate calculator, you need to create intervals without gaps between them. 
+     <br />When the order total does not fall within an interval, the default rate will be used.
+     Order amounts larger than the largest ceiling will use the last interval rate.
+     <br />NOTE: The FLOOR value is inclusive and the CEILING value is exclusive.
+    "
+  click_here: Klik hier
+  calculator_settings: Calculator Settings
+  calculator_text: Calculator
+  weight_unit: kg
